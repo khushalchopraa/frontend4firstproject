@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12rem;
+  margin-left: 20rem;
+  text-align: center;
+  font-family: 'Montserrat';
+
+}
+
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input1,
+.input2 {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  border: 3px solid #ccc;
+
+}
+
+.container {
+  border: 2px solid black;
+  width: 473px;
+  box-shadow: 10px 10px 10px 20px #FB184E78, -10px -10px 10px 20px #0057FF78;
+
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #060708;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #287bbf;
+}
+
+/* App.css */
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
